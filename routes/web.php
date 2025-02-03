@@ -11,3 +11,9 @@ Route::get('/blogs', function () {
     return view('welcome');
 });
 
+
+
+Route::get('/blog-details', function () {
+    return view('welcome');
+});
+
